@@ -1,0 +1,14 @@
+In mars task#2 we were told to create TRANSRECIEVR system which will transmit and recive any type of small data.
+I was given Transmitter part of the system. 
+I srtarted by first learning about how to connect Transmitter to Arduino.
+Then I After successfully connecting the transmitter to Arduino I started to Code.
+I wrote my own code with help of certain sites which are mentioned in SOURCE file.
+After everything when i tried to run , the message was not delivered to reciver side.
+After some time i wrote another simple code , Using same libraries as used in Reciever side code.
+Then it worked .
+With this I infered that libraries should be same on both side otherwise the system won't work.
+
+Now we were given task to take an Ultrasonic sensor and use it to find distance and transmit the distance.
+Then i used my knowledge ,of how to use Ultrasoninc sensor , which i aquired while making one of my projects in task#1 to connect Ultrasonic to Arduino.
+
+After updating the previous code with neccessary changes , the whole system was working.
