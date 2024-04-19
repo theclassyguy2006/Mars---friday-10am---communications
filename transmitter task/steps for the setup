@@ -1,0 +1,10 @@
+Here is the guide from me for the RF 433MHz transmitter project:
+
+These are some steps that I followed the setting up the transmitter with the arduino:-
+
+1. Take Arduino uno, transmitter module, jumper wires.
+2. First connect the VDD to the 5V of arduino, and GND pin of tranmitter to the GND of the Arduino.
+3. Now connect the DATA pin to any of the analog digits (eg. 12)
+4. After connections write the code taking into consideration about the DATA pin connections(i.e. 13)
+5. As your code is complete connect the arduino to the laptop to check the code, and start uploading so that
+the reciever end will recieve the transmitted message.
