@@ -10,4 +10,8 @@ Amplitude shift keying is very simple.Whenever the digital data or clock pulse w
 
 So I started on the code by first installing the radio head library and adding it to the Arduino library folder. Then I included that library and two more necessary libraries in the code.
 
+The I wrote the code for recieving the signals.Then I went to the connections.
 
+Step by step guide for connections:
+
+1.First connect the 
