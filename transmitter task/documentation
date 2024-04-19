@@ -1,2 +1,9 @@
 For the MaRS task #2, I chose the communication subgroup.
-So the task was to build a transmitter and receiver module and to interface it with Arduino. My job was to 
+So the task was to build a transmitter and receiver module and to interface it with Arduino. My job was to connect the RF 433MHz transmitter to the arduino 
+and to write the specific code for the same such that it should communicate with receiver module code made by yusuf.
+
+I started with getting some understanding of the transmitter module, its pins and connections. Also I took help from some sources for this information-
+1. for understanding all about the RF modules -  https://robu.in/what-is-rf-transmitter-and-receiver//
+2. for the connections of transmitter pins    -  https://randomnerdtutorials.com/rf-433mhz-transmitter-receiver-module-with-arduino/
+
+After understanding the basics about the transmitter module and its pins I started to look for the code writting 
