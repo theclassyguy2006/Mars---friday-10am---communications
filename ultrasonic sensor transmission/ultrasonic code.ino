@@ -1,3 +1,5 @@
+This is the code for ultrasonic distance sensor transmission- 
+   
 #include <RadioHead.h>
 
 #include <RH_ASK.h>
@@ -12,7 +14,7 @@ RH_ASK driver;
 void setup()
 {
    	 
-     pinMode(10, OUTPUT);
+    pinMode(10, OUTPUT);
     pinMode(11,INPUT);
     Serial.begin(9600); // Debugging only
     if (!driver.init())
