@@ -1,3 +1,5 @@
+This is the code I have written for the transmitter module-
+
 #include <RadioHead.h>
 
 #include <RH_ASK.h>
@@ -15,7 +17,7 @@ void setup()
 void loop()
 {
     
-    const char *msg =Serial.read();
+    const char *msg ="hey there";
 
     driver.send((uint8_t *)msg, strlen(msg));
     driver.waitPacketSent();
