@@ -1,0 +1,38 @@
+#include <RadioHead.h>
+
+#include <RH_ASK.h>
+#include <SPI.h> 
+
+RH_ASK driver;
+
+int TrPin=10;
+int EcPin=11;
+
+int distance;
+void setup()
+{
+  pinMode(TrPin,OUTPUT);
+  pinMode(EcPin,INPUT);
+    Serial.begin(9600);    
+    if (!driver.init())
+         Serial.println("init failed");
+
+}
+
+void loop()
+{
+   // const char *msg = "Avi ,this side !";
+
+   digitalWrite(TrPin,HIGH);
+   delay(100);
+   digitalWrite(TrPin,LOW);
+
+   distance=pulseIn(EcPin,HIGH);
+   distance=distance*0.034/2;
+ Serial.println(distance);
+   
+
+    driver.send((uint8_t *)distance, (uint8_t)1);
+    driver.waitPacketSent();
+    delay(1000);
+}

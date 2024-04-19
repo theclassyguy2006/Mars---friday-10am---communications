@@ -1,0 +1,26 @@
+To setup transmitter part , here are the steps.
+
+COMPONENETS required:-
+    Arduino Board
+    3 male to female jumper wire
+    USB cable type A/B Standard USB 2.0 cable
+    UltraSonic Sensor
+    RF Transmitter
+
+STEPS:-
+
+1]  Use male to female jumper wire to connect componenets to Arduino
+2]  Take RF transmitter 
+3]  Connect ground(GND) of Transmitter to ground(GND) of Arduino
+4]  Connect VCC of Transmitter to 5V of Arduino
+5]  Connect DATA of Transmitter to Pin 12 of Arduino
+6]  Connect VCC of UltraSonic sensor to 5V of Arduino
+7]  Connect ground(GND) of UltraSonic sensor to ground(GND) of Arduino
+8]  Connect TrigPin to pin 10
+9]  Connect EchoPin to pin 11
+10] Use USB cable type A/B Standard USB 2.0 cable to connect Arduino to PC.
+11] Download required libraries (All required libraries download link is given in File named as SOURCE in this repository)
+12] Write code required, or simply copy given code .
+13] Compile and run.
+
+Your message transmitter is ready.

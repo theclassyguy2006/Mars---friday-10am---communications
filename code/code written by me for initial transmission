@@ -1,0 +1,58 @@
+#include <VirtualWire.h>
+
+
+
+int dat=12;
+char *data1="Hello";
+char *data2="how";
+char *data3="i";
+char *data4="here";
+char *data5="okey";
+
+
+
+void setup()
+{
+  vw_set_tx_pin(dat);
+  vw_setup(2000);
+  
+  
+}
+
+
+void loop()
+{
+  int a=1;
+  while(a!=5)
+  {
+    if(a==1)
+    {
+      vw_send((uint8_t *)data1,strlen(data1));
+      vw_wait_tx();
+    }
+    else if(a==2)
+    {
+      vw_send((uint8_t) *data2,strlen(data2));
+      vw_wait_tx();
+    }
+    else if(a==3)
+    {
+      vw_send((uint8_t) *data3,strlen(data3));
+      vw_wait_tx();
+    }
+    else if(a==4)
+    {
+      vw_send((uint8_t) *data4,strlen(data4));
+      vw_wait_tx();
+    }
+    else if(a==5)
+    {
+      vw_send((uint8_t) *data5,strlen(data5));
+      vw_wait_tx();
+    }
+    a++;
+    delay(800);
+    
+  }
+  
+}

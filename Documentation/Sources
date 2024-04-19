@@ -1,0 +1,12 @@
+For wiring of transmitter     :-    https://www.youtube.com/watch?app=desktop&v=OoUSLSvTJdY
+For wiring Ultrasonic Sensor  :-    https://www.tinkercad.com/things/5kIgeYxHMYr-automatic-door-hinge/editel                (This is my own project which i made during MaRs task#1)
+For code of transmitter       :-    https://randomnerdtutorials.com/rf-433mhz-transmitter-receiver-module-with-arduino/
+For writing my own code for 
+arduino ,this helped me       :-    https://robocraze.com/blogs/post/how-433mhz-rf-module-works-interfacing-with-arduino#:~:text=We%20used%20a%20library%20called,the%20receiver%20via%20RF%20signal.
+
+helpful repository            :-    https://github.com/pouriap/TinyRF/releases/tag/v1.7
+
+Download Arduino IDE 2.3.2    :-    https://www.arduino.cc/en/software
+Download Virtual.wire library :-    http://www.airspayce.com/mikem/arduino/VirtualWire/VirtualWire-1.27.zip
+Download Radio head Library   :-    https://electronoobs.com/eng_arduino_RadioHead.php
+
