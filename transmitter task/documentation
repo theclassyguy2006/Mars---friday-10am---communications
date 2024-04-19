@@ -6,4 +6,18 @@ I started with getting some understanding of the transmitter module, its pins an
 1. for understanding all about the RF modules -  https://robu.in/what-is-rf-transmitter-and-receiver//
 2. for the connections of transmitter pins    -  https://randomnerdtutorials.com/rf-433mhz-transmitter-receiver-module-with-arduino/
 
-After understanding the basics about the transmitter module and its pins I started to look for the code writting 
+After understanding the basics about the transmitter module and its pins I started to look for the code writting. For writting code I took help from some 
+sources-
+1. for the transmitter code - https://randomnerdtutorials.com/rf-433mhz-transmitter-receiver-module-with-arduino/
+2. for RadioHead library download- https://www.arduinolibraries.info/libraries/radio-head.
+
+while reading about how to code for it I got to know that I have to use RadioHead library, because
+The RadioHead library provides an easy way to work with the 433 MHz transmitter/receiver with the Arduino
+
+After finishing the code for tranmitter I connected the transmitter module to the arduino, and then connected it to the laptop to start transmitting.
+So the code was working and yusuf was receiving the message sent by me.
+
+I also tried to improve my code for taking the input message from the user (i.e like scanf). but i was not getting the proper function for that thing 
+(may be because I dont know much anout those functions) . For this code receiver end was receiving the msg but it was showing some random message.
+
+So, overall it was interesting task to do. Also we handeled real arduino for the first time and also successfully transmitted our messages.
