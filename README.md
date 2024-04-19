@@ -19,5 +19,10 @@ Step-by-step guide for connections:
 3. At last, we need to connect pin-6 and pin-7 to any digital pin(I connected it to the 11th digital GPIO pin of Arduino).
 4. Now that your connections are done, just find out the com-port with which you connect the Arduino to the USB of the laptop through the device manager. 
 
-After successfully running, It will display the message that has been received 
-For part II, the receiver module stayed the same
+After successfully running, It will display the message that has been received.
+
+For part II, the receiver module connections stayed the same, but my friends had to add in an ultrasonic sensor.
+
+I now, instead of reading a string, had to read an integer that would be sent to me, so I tweaked the code a bit. Then the distance was received on my receiver module and appeared on the screen. A very important learning was the fact that if our hand goes too far from the sensor, the distance will be 0, when we bring it at a specific distance, it will start calculating, and when we bring it very near , it again goes to 0.
+
+Overall, it was a fun experience, working with some of my fellow mates, and learning along the way.
